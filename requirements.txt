@@ -1,0 +1,21 @@
+# reverse_agent runtime dependencies.
+#
+# NOTE: the `idapro` package is NOT on PyPI. Install it from your IDA Pro 9.x
+# installation and activate idalib (see setup.sh / README.md):
+#   pip install "/Applications/IDA Professional 9.4.app/Contents/MacOS/idalib/python/idapro-*.whl"
+#   python "/Applications/IDA Professional 9.4.app/Contents/MacOS/idalib/python/py-activate-idalib.py"
+
+langgraph>=1.0
+langchain-core>=1.0
+openai>=1.40
+ida-pro-mcp>=1.4.0
+mcp>=1.0
+typing_extensions>=4.10
+
+# Verification / emulation stack (Stage 3 of the RE plan):
+# capstone = independent disassembler for second-source call-site scanning
+# unicorn  = CPU emulator to execute real binary code and verify primitives
+# pycryptodome = reference crypto implementations to diff against emulated output
+capstone>=5.0
+unicorn>=2.0
+pycryptodome>=3.20

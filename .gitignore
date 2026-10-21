@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+out/
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+.env
+samples/
+.DS_Store

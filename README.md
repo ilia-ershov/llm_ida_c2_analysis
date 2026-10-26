@@ -184,3 +184,9 @@ protocol, so never point it at live infrastructure.
   anti-repeat/record guards plus a synthesis finalizer to guarantee a substantive
   notebook. A stronger model (`--model deepseek-chat`) generally yields deeper
   findings.
+
+## License
+
+MIT — see [LICENSE](LICENSE). Built during an information-security internship and
+published with the supervisor's permission; it contains no samples, captures or
+results from the internship.
